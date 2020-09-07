@@ -174,3 +174,45 @@ footer span {
 	color: #77a466;
 	font-size: 0.875em;
 }
+
+
+@media all and (mid-width: 768px) {
+		/* Tablet styles here */
+
+.bottom-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+}
+
+
+@media all and (min-width 1200px) {
+	 /* Desktop styles here */
+
+.bottom-section {
+	display: flex;
+	justify-content: space-between;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+}
